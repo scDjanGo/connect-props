@@ -49,3 +49,18 @@
         color: white;
     }
 }
+
+@media (max-width: 795px) {
+    .container {
+        margin-top: 12px;
+        padding: 8px;
+        gap: 8px;
+
+        & > button {
+            padding: 4px 6px;
+            font-size: 12px;
+            border-radius: 6px;
+        }
+    }
+}
+
