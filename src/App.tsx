@@ -91,8 +91,8 @@ export default function App() {
         mousePos={mousePos}
       />
 
-      <div className="grid grid-cols-2 gap-10 !p-4 relative z-10">
-        <div className="flex flex-col gap-4">
+      <div className={styles.container__columns}>
+        <div className={styles.column}>
           {BLOCK_ITEMS.filter((i) => i.side === "left").map((item) => (
             <Block_Button
               key={item.id}
@@ -103,7 +103,7 @@ export default function App() {
             />
           ))}
         </div>
-        <div className="flex flex-col gap-4">
+        <div className={styles.column}>
           {BLOCK_ITEMS.filter((i) => i.side === "right").map((item) => (
             <Block_Button
               key={item.id}
