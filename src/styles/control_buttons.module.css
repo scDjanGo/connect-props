@@ -1,0 +1,51 @@
+.container {
+    margin-top: 24px;
+    padding: 16px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 16px;
+    flex-wrap: wrap;
+
+
+    &>button {
+        cursor: pointer;
+        padding: 8px 12px;
+        border-radius: 10px;
+        font-size: 24px;
+        font-weight: 600;
+        color: #000000;
+        background-color: #EDEDED;
+        transition: all .3s ease-in-out;
+
+    }
+}
+
+
+
+
+.save__button {
+
+    &:hover {
+        background-color: rgb(44, 209, 44);
+        color: white;
+    }
+}
+
+
+.restore__button {
+    &:hover {
+        background-color: rgb(18, 18, 203);
+        color: white;
+    }
+
+}
+
+.clear__button {
+
+    &:hover {
+        background-color: rgb(246, 66, 66);
+        color: white;
+    }
+}

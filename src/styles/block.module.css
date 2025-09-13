@@ -1,0 +1,10 @@
+.block__button {
+  padding: 12px 24px;
+  font-size: 24px;
+  font-weight: 700;
+  border-radius: 12px;
+  text-align: start;
+  transition: all 0.3s ease-in-out;
+  color: "#000000";
+}
+
